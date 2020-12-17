@@ -8,8 +8,8 @@ import Solitaire from "../imgs/amavida/Solitaire.jpg"
 import Stone from "../imgs/amavida/3-Stone.jpg"
 import Freeform from "../imgs/amavida/Freeform.jpg"
 import Split from "../imgs/amavida/Split.jpg"
-import Ring from "../imgs/Amavida/ring.jpg"
-import Diamonds from "../imgs/Amavida/diamond-band.jpg"
+import Ring from "../imgs/amavida/ring.jpg"
+import Diamonds from "../imgs/amavida/diamond-band.jpg"
 
 const DataAmavida = {
     hero: {
