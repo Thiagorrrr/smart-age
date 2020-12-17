@@ -1,0 +1,23 @@
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &__img {
+    display: inline-block;
+    width: 100%;
+    min-height: 380px;
+
+    @include breakpoint-md {
+      min-height: auto;
+    }
+  }
+  
+  &__container-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}

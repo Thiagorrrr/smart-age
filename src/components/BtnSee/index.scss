@@ -1,0 +1,33 @@
+.SeeMore {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    @include breakpoint-md {
+        margin-top: 40px;
+    }
+
+    &__link {
+        border: 2px solid $dark-color-third;
+        padding: 16px 30px;
+        height: 48px;
+        max-width: 272px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        color: $dark-color-third;
+
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        text-align: center;
+
+        &:hover {    
+            color: $dark-color-third;
+            text-decoration: none;
+        }
+    }
+}

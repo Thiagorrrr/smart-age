@@ -1,0 +1,15 @@
+.titleMark {
+    font-family: Lora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: $dark-color-primary;
+    padding: 40px 0 10px;
+
+    @include breakpoint-md {
+        padding: 80px 0 20px;
+    }
+}

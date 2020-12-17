@@ -1,0 +1,43 @@
+.ImgSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @include breakpoint-md {
+        flex-direction: row;
+    }
+
+    &__img {
+        display: inline-block;
+        width: 100%;
+        max-height: 300px;
+        padding-bottom: 30px;
+
+        @include breakpoint-md {
+            padding-bottom: 0;
+            max-height: none;
+        }
+    }
+
+    &.left {
+        flex-direction: column;
+
+        @include breakpoint-md {
+            flex-direction: row;
+        }
+    }
+
+    &.top {
+        padding-top: 90px;
+    }
+
+    &.right {
+        flex-direction: column;
+
+        @include breakpoint-md {
+            flex-direction: row-reverse;
+        }
+
+    }
+}

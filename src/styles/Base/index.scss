@@ -1,0 +1,14 @@
+//Base
+@import './fonts';
+@import './mixins';
+@import './reset';
+@import './variables';
+
+// components
+@import "../../components/Card/index.scss";
+@import "../../components/Hero/index.scss";
+@import "../../components/List/index.scss";
+@import "../../components/BtnSee/index.scss";
+@import "../../components/TextLinkBtn/index.scss";
+@import "../../components/TitleMark/index.scss";
+@import "../../components/ImgSide/index.scss"
