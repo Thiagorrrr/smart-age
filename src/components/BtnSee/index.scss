@@ -26,8 +26,10 @@
         text-align: center;
 
         &:hover {    
-            color: $dark-color-third;
+            color: $light-color-primary;
+            background-color: $dark-color-third;
             text-decoration: none;
+            transition: all 0.3s ease-in-out;
         }
     }
 }

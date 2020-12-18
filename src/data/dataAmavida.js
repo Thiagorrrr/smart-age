@@ -83,7 +83,7 @@ const DataAmavida = {
         }
     ],
     BtnSee: {
-        title: "Shop Gaby Collection",
+        title: "shop amavida bridal",
         url: "#",
         target: "__blank"
     },

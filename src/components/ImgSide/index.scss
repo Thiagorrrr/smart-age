@@ -4,8 +4,22 @@
     justify-content: center;
     flex-direction: column;
 
+    padding-right: 0;
+    padding-left: 0;
+
     @include breakpoint-md {
         flex-direction: row;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    &__content-img {
+        padding-right: 0;
+        padding-left: 0;
+        @include breakpoint-md {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
     }
 
     &__img {
