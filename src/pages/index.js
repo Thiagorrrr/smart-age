@@ -8,6 +8,7 @@ const IndexPage = () => {
         <ul>
           <li><Link to="/bujukan/">bujukan</Link> </li>
           <li><Link to="/amavida/">amavida</Link> </li>
+          <li><Link to="/holiday/">holiday</Link> </li>
         </ul>
       </nav>
     </main>

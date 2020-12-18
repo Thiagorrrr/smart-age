@@ -1,4 +1,10 @@
 .list {
+    &.top {
+        @include breakpoint-md { 
+            padding-top: 80px;
+        }
+    }
+
     &__container {
         display: flex;
         flex-wrap: wrap;

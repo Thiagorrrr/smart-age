@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Card from "../Card/index"
 
 const List = props => (
-    <section className="list">
+    <section className={`list ${props.classNames || ''} `}>
         <ul className="list__container container">
             {
                 props.dataCards.map((items, index) => {
