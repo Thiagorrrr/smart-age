@@ -22,6 +22,25 @@ const TextLinkBtn = props => (
                 title={props.linkNamebtn}
             />
         }
+        {
+            props.list &&
+
+            <ul className="TextLinkBtn__list">
+                {
+                    props.list.map((items, index) => <li key={index} className={`TextLinkBtn__list-items ${items.classNames || '' }`}>{items.title || items }</li>)
+                }
+            </ul>
+        }
+        {
+            props.paragraph &&
+
+            <div className="TextLinkBtn__list-paragraph">
+                {
+                    props.paragraph.map((items, index) => <p key={index} className={`TextLinkBtn__paragraph ${items.classNames || '' }`}>{items.title || items}</p>)
+                }
+            </div>
+
+        }
     </div>
 )
 

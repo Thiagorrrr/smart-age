@@ -11,6 +11,7 @@ const List = props => (
                     return (
                         <Card
                             key={index}
+                            classNames={items.classNames}
                             img={items.img}
                             alt={items.alt}
                             title={items.title}

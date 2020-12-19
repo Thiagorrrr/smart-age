@@ -43,7 +43,13 @@
     }
 
     &.top {
-        padding-top: 90px;
+        padding-top: 40px;
+        @include breakpoint-md {
+            padding-top: 90px;
+        }
+    }
+    &.bottom {
+        padding-bottom: 40px;
     }
 
     &.right {

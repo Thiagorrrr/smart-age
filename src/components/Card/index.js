@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 const Card = props => (
-    <li className="cardItem">
+    <li className={`cardItem ${props.classNames || ''}` }>
         <a className="cardItem__link" href={props.link}>
             {props.img &&
                 <picture>
@@ -29,6 +29,7 @@ const Card = props => (
 )
 
 Card.propTypes = {
+    classNames: PropTypes.string,
     link: PropTypes.string,
     img: PropTypes.string,
     imgTablet: PropTypes.string,

@@ -1,68 +1,121 @@
 .TextLinkBtn {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
+  position: relative;
 
-    @include breakpoint-md {
-      padding-bottom: 0;
+  @include breakpoint-md {
+    padding-bottom: 0;
+  }
+
+  &.top {
+    margin-top: 40px;
+  }
+
+  &.bg-gray {
+    background-color: $gray-color-fourth; 
+  }
+
+  &.padding {
+    padding: 25px 0;
+  }
+
+  &.textLeft {
+    .TextLinkBtn__subtitle,
+    .TextLinkBtn__title {
+      text-align: left;
+    }
+  }
+
+  &__subtitle,
+  &__title {
+    color: $light-color-primary;
+  }
+
+  &__title {
+    font-family: Lora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  &__subtitle {
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  &__link {
+    color: $light-color-primary;
+    font-family: Nunito;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 1px solid $light-color-primary;
+
+    &:hover {
+      text-decoration: none;
+      color: $light-color-primary;
+      border-bottom: 0;
+    }
+  }
+
+  &__list {
+    padding-top: 10px;
+  }
+
+  &__list-items {
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: $dark-color-fourth;
+  }
+
+  &__paragraph {
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: $dark-color-fourth;
+    padding-bottom: 20px;
+
+    &.bold {
+      font-weight: 600;
+    }
+  }
+
+  &.dark {
+
+    .TextLinkBtn__title,
+    .TextLinkBtn__subtitle {
+      color: $dark-color-primary;
     }
 
-    &__subtitle,
-    &__title {
-      color: $light-color-primary;
-    }
-  
-    &__title {
-      font-family: Lora;
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 46px;
-      letter-spacing: 0.02em;
-      text-align: center;
-      padding-bottom: 15px;
-    }
-  
-    &__subtitle {
-      font-family: Nunito;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 26px;
-      letter-spacing: 0.04em;
-      text-align: center;
-    }
-  
-    &__link {
-      color: $light-color-primary;
-      font-family: Nunito;
-      display: inline-block;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 26px;
-      letter-spacing: 0.02em;
-      text-align: center;
-      padding-top: 15px;
-      border-bottom: 1px solid $light-color-primary;
-  
-      &:hover{
-        text-decoration: none;
-        color: $light-color-primary; 
-        border-bottom: 0;
-      }
-    }
-  
-    &.dark {
-      .TextLinkBtn__title,
-      .TextLinkBtn__subtitle {
+    .TextLinkBtn__link {
+      color: $dark-color-primary;
+      border-bottom: 1px solid $dark-color-primary;
+
+      &:hover {
         color: $dark-color-primary;
       }
-      .TextLinkBtn__link {
-        color: $dark-color-primary;
-        border-bottom: 1px solid  $dark-color-primary;
-  
-        &:hover{ 
-          color: $dark-color-primary;
-        }
-      }
     }
+  }
 }

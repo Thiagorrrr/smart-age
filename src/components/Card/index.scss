@@ -6,6 +6,16 @@
         width: 25%;
     }
 
+    &.items3 {
+        width: 100%;
+        padding-bottom: 40px;
+        
+        @include breakpoint-md {
+            width: 30%;
+            padding-bottom: 0;
+        }   
+    }
+
     &__link {
         display: flex;
         flex-direction: column;
@@ -20,6 +30,7 @@
 
     &__img {
         width: 100%;
+        padding-bottom: 10px;
     }
 
     &__title {

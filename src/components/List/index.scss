@@ -1,6 +1,6 @@
 .list {
     &.top {
-        @include breakpoint-md { 
+        @include breakpoint-md {
             padding-top: 80px;
         }
     }
@@ -11,4 +11,12 @@
         list-style: none;
         padding: 0;
     }
+
+    &.center {
+        .list__container {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
 }

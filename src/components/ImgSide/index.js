@@ -15,6 +15,8 @@ const ImgSide = props => (
             }
         </div>
         <TextLinkBtn
+            list={props.list}
+            paragraph={props.paragraph}
             classNames={props.classNames}
             title={props.title}
             subtitle={props.subtitle}
@@ -30,6 +32,8 @@ ImgSide.propTypes = {
     subtitle: PropTypes.string,
     linkNamebtn: PropTypes.string,
     linkBtn: PropTypes.string,
+    list: PropTypes.array,
+    paragraph: PropTypes.array,
 }
 
 export default ImgSide;
