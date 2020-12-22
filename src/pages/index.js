@@ -6,10 +6,15 @@ const IndexPage = () => {
     <main >
       <nav>
         <ul>
-          <li><Link to="/bujukan/">bujukan</Link> </li>
-          <li><Link to="/amavida/">amavida</Link> </li>
-          <li><Link to="/holiday/">holiday</Link> </li>
-          <li><Link to="/contact/">contact</Link> </li>
+          <li><Link to="/bujukan/">Bujukan</Link> </li>
+          <br></br>
+          <li><Link to="/amavida/">Amavida</Link> </li>
+          <br></br>
+          <li><Link to="/holiday/">Holiday</Link> </li>
+          <br></br>
+          <li><Link to="/contact/">Contact</Link> </li>
+          <br></br>
+          <li><Link to="/shipping/">Shipping</Link> </li>
         </ul>
       </nav>
     </main>
