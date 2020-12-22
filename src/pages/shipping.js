@@ -1,7 +1,6 @@
 import * as React from "react"
-import List from "../components/List/index"
 import TextLinkBtn from "../components/TextLinkBtn/index"
-import DataShipping from "../data/dataShipping"
+import DataShipping from "../data/DataShipping"
 import "../styles/Base/index.scss"
 const ContactPage = () => (
     <main>

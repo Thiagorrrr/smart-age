@@ -102,6 +102,16 @@
       padding-top: 20px;
       padding-bottom: 0;
     }
+    &.extraLight {
+      font-family: Lora;
+      font-size: 24px;
+      font-weight: 400;
+      padding-top: 15px;
+      padding-bottom: 8px;
+    }
+    &.noSpace {
+      padding-bottom: 0;
+    }
   }
 
   &.dark {

@@ -1,4 +1,4 @@
-const DataContact = {
+const DataShipping = {
     TextLinkBtn: {
         classNames: "Shipping container"
     },
@@ -77,4 +77,4 @@ const DataContact = {
 
 
 
-export default DataContact;
+export default DataShipping;
