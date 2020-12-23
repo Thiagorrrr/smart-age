@@ -1,6 +1,6 @@
 import * as React from "react"
 import TextLinkBtn from "../components/TextLinkBtn/index"
-import DataPrivacy from "../data/DataPrivacy"
+import DataPrivacy from "../data/dataPrivacy"
 import "../styles/Base/index.scss"
 const PrivacyPage = () => (
     <main>

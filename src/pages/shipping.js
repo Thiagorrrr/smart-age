@@ -1,6 +1,6 @@
 import * as React from "react"
 import TextLinkBtn from "../components/TextLinkBtn/index"
-import DataShipping from "../data/DataShipping"
+import DataShipping from "../data/dataShipping"
 import "../styles/Base/index.scss"
 const ShippingPage = () => (
     <main>
