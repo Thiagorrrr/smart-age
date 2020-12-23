@@ -2,7 +2,7 @@ import * as React from "react"
 import TextLinkBtn from "../components/TextLinkBtn/index"
 import DataPrivacy from "../data/DataPrivacy"
 import "../styles/Base/index.scss"
-const ContactPage = () => (
+const PrivacyPage = () => (
     <main>
         <section className={DataPrivacy.TextLinkBtn.classNames} >
             <TextLinkBtn
@@ -29,4 +29,4 @@ const ContactPage = () => (
         </section>
     </main>
 )
-export default ContactPage
+export default PrivacyPage

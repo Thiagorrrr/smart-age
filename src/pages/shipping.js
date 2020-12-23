@@ -2,7 +2,7 @@ import * as React from "react"
 import TextLinkBtn from "../components/TextLinkBtn/index"
 import DataShipping from "../data/DataShipping"
 import "../styles/Base/index.scss"
-const ContactPage = () => (
+const ShippingPage = () => (
     <main>
         <section className={DataShipping.TextLinkBtn.classNames} >
             <TextLinkBtn
@@ -22,4 +22,4 @@ const ContactPage = () => (
         </section>
     </main>
 )
-export default ContactPage
+export default ShippingPage
