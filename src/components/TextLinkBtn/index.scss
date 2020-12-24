@@ -6,25 +6,41 @@
     padding-bottom: 0;
   }
 
+  &.extraTop,
   &.top {
     margin-top: 40px;
   }
 
+  &.extraTop {
+    @include breakpoint-md { 
+      margin-top: 80px;
+    }
+  }
+
   &.bg-gray {
-    background-color: $gray-color-fourth; 
+    background-color: $gray-color-fourth;
   }
 
   &.padding {
     padding: 25px 15px;
   }
 
+  strong {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
   &.textLeft {
+
+    .TextLinkBtn__info,
     .TextLinkBtn__subtitle,
     .TextLinkBtn__title {
       text-align: left;
     }
   }
 
+  &__info,
   &__subtitle,
   &__title {
     color: $light-color-primary;
@@ -48,6 +64,16 @@
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  &__info {
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.1em;
     text-align: center;
   }
 
@@ -97,11 +123,13 @@
     color: $dark-color-fourth;
     padding-bottom: 20px;
 
+    strong,
     &.bold {
       font-weight: 600;
       padding-top: 20px;
       padding-bottom: 0;
     }
+
     &.extraLight {
       font-family: Lora;
       font-size: 24px;
@@ -109,6 +137,11 @@
       padding-top: 15px;
       padding-bottom: 8px;
     }
+
+    &.top {
+      padding-top: 20px;
+    }
+
     &.noSpace {
       padding-bottom: 0;
     }
@@ -116,6 +149,7 @@
 
   &.dark {
 
+    .TextLinkBtn__info,
     .TextLinkBtn__title,
     .TextLinkBtn__subtitle {
       color: $dark-color-primary;

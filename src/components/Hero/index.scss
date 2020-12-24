@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
 
-  @include breakpoint-md {
+  @include breakpoint-lg {
     flex-direction: row;
   }
   
@@ -23,7 +23,7 @@
     padding-right: 0;
     padding-left: 0;
 
-    @include breakpoint-md {
+    @include breakpoint-lg {
       position: absolute;
       min-height: auto;
       padding-top: 0;
