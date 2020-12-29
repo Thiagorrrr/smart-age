@@ -19,6 +19,8 @@ const IndexPage = () => {
           <li><Link to="/privacy/">Privacy</Link> </li>
           <br></br>
           <li><Link to="/promotions/">Promotions</Link> </li>
+          <br></br>
+          <li><Link to="/renewal/">Renewal</Link> </li>
         </ul>
       </nav>
     </main>

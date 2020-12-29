@@ -150,9 +150,12 @@
   &.dark {
 
     .TextLinkBtn__info,
-    .TextLinkBtn__title,
-    .TextLinkBtn__subtitle {
+    .TextLinkBtn__title {
       color: $dark-color-primary;
+    }
+    
+    .TextLinkBtn__subtitle {
+      color: $dark-color-third;
     }
 
     .TextLinkBtn__link {
