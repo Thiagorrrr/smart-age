@@ -3,8 +3,16 @@
     justify-content: center;
     margin-top: 20px;
 
-    @include breakpoint-md {
+    @include breakpoint-lg {
         margin-top: 40px;
+    }
+
+    &.down {
+        margin-bottom: 20px;
+
+        @include breakpoint-lg {
+            margin-bottom: 40px;
+        }
     }
 
     &__link {

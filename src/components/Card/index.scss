@@ -28,6 +28,15 @@
         }
     }
 
+    &__picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include breakpoint-lg {
+            min-height: 238px;
+        }
+    }
     &__img {
         width: 100%;
         padding-bottom: 10px;

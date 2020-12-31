@@ -5,7 +5,7 @@ const Card = props => (
     <li className={`cardItem ${props.classNames || ''}` }>
         <a className="cardItem__link" href={props.link}>
             {props.img &&
-                <picture>
+                <picture className='cardItem__picture'>
                     <source media="(min-width: 1024px)" srcSet={props.imgDesk || props.img} />
                     <source media="(min-width: 768px)" srcSet={props.imgTablet || props.img} />
                     <source srcSet={props.img} />

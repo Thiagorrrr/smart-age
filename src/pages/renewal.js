@@ -34,10 +34,25 @@ const RenewalPage = () => (
             subtitle={dataRenewal.TextLinkBtn.subtitle}
         />
 
+        <List
+            dataCards={dataRenewal.dataCards2}
+        />
+
         <BtnSee
+            classNames={dataRenewal.BtnSee.classNames}
             title={dataRenewal.BtnSee.title}
             url={dataRenewal.BtnSee.url}
             target={dataRenewal.BtnSee.target}
+        />
+
+        <Hero
+            subtitle={dataRenewal.hero2.subtitle}
+            title={dataRenewal.hero2.title}
+            alt={dataRenewal.hero2.alt}
+            img={dataRenewal.hero2.img}
+            link={dataRenewal.hero2.link}
+            linkName={dataRenewal.hero2.linkName}
+            classNames={dataRenewal.hero2.classNames}
         />
 
         <ImgSide
