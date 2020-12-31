@@ -16,7 +16,7 @@ import Merry from "../imgs/holiday/merry.jpg";
 
 const DataHoliday = {
     hero: {
-        classNames: "dark offset-lg-7 col-lg-5",
+        classNames: "offset-lg-7 col-lg-5",
         title: "The Iconic Bujukan Collection",
         subtitle: "Experience pure sophistication and radiance through handcrafted arcs of gold spheres, radiant mini-cluster diamonds and chains of perfect gold circles.",
         alt: "woman with jewelry",

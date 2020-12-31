@@ -3,7 +3,7 @@ const DataShipping = {
         classNames: "Shipping container"
     },
     TextLinkBtn1: {
-        classNames: "dark textLeft",
+        classNames: "textLeft",
         title: "Returns & Exhanges",
         paragraph: [
             {
@@ -43,7 +43,7 @@ const DataShipping = {
         ],
     },
     TextLinkBtn2: {
-        classNames: "dark textLeft",
+        classNames: "textLeft",
         title: "Shipping Policy",
         paragraph: [
             {

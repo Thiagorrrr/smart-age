@@ -10,7 +10,7 @@ import Returns from "../imgs/contact/Returns.jpg"
 
 const DataContact = {
     TextLinkBtn: {
-        classNames: "dark container",
+        classNames: "container",
         title: 'Shop by Style',
         subtitle: 'Browse online, shop in store. Gabriel & Co. offers you to view, wear, and experience any ring in a store near you.'
     },
@@ -53,7 +53,7 @@ const DataContact = {
         img: Shipping,
         alt: "image Shipping",
         TextLinkBtn1: {
-            classNames: "dark textLeft col-lg-6",
+            classNames: "textLeft col-lg-6",
             title: "Shipping",
             subtitle: "We offer free and fast standard shipping with all U.S.orders.",
             list: [
@@ -72,7 +72,7 @@ const DataContact = {
         img: International,
         alt: "image International",
         TextLinkBtn2: {
-            classNames: "dark textLeft col-lg-6",
+            classNames: "textLeft col-lg-6",
             title: "International Shipping",
             subtitle: "We offer free and fast standard shipping with all U.S.orders.",
             paragraph: [
@@ -89,7 +89,7 @@ const DataContact = {
         img: Returns,
         alt: "image Returns",
         TextLinkBtn3: {
-            classNames: "dark textLeft col-lg-6",
+            classNames: "textLeft col-lg-6",
             title: "Returns",
             paragraph: [
                 {
@@ -118,7 +118,7 @@ const DataContact = {
         img: Conditions,
         alt: "image Conditions",
         TextLinkBtn4: {
-            classNames: "dark textLeft col-lg-6",
+            classNames: "textLeft col-lg-6",
             title: "Return Conditions",
             subtitle: "We offer free and fast standard shipping with all U.S.orders.",
             list: [
@@ -132,7 +132,7 @@ const DataContact = {
     },
     TextLinkBtn2: {
         bg: "TextLinkBtn bg-gray top",
-        classNames: "dark container padding",
+        classNames: "container padding",
         title: 'Exchanges',
         subtitle: 'To arrange an exchange, please contact our Customer Service Department directly. A new order for the new item must be placed on the Gabriel website within 30 days of the original purchase.'
     },

@@ -3,7 +3,7 @@ import Merry from "../imgs/promotions/Merry.jpg"
 
 const DataPromotions = {
     hero: {
-        classNames: "dark offset-lg-7 col-lg-5",
+        classNames: "offset-lg-7 col-lg-5",
         title: "Merry Everything & Happy Always",
         subtitle: "This Holiday season is extra special. May you leave a little sparkle wherever you go and may your holiday season be extra merry and bright.",
         alt: "rings and necklace",
@@ -15,7 +15,7 @@ const DataPromotions = {
         classNames: "Promotions__container container"
     },
     TextLinkBtn1: {
-        classNames: "dark textLeft extraTop",
+        classNames: "textLeft extraTop",
         title: "Current Promotions ",
         paragraph: [
             {
@@ -141,7 +141,7 @@ const DataPromotions = {
 
     TextLinkBtn2: {
         bg: "TextLinkBtn bg-gray extraTop",
-        classNames: "dark container padding",
+        classNames: "container padding",
         title: 'Exchanges',
         info: "FREE GIFT WITH  ANY PURCHASE",
         subtitle:  `For a limited time and with any purchase, get this unique pendant, symbolizing universal health and spiritual balance. Use code: ${`<strong>  "GIFTOFLIFE"  </strong>`}`,

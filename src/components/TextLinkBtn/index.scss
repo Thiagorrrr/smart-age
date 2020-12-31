@@ -43,7 +43,7 @@
   &__info,
   &__subtitle,
   &__title {
-    color: $light-color-primary;
+    color: $dark-color-primary;
   }
 
   &__title {
@@ -65,6 +65,7 @@
     line-height: 26px;
     letter-spacing: 0.04em;
     text-align: center;
+    color: $dark-color-third;
   }
 
   &__info {
@@ -77,8 +78,7 @@
     text-align: center;
   }
 
-  &__link {
-    color: $light-color-primary;
+  &__link { 
     font-family: Nunito;
     display: inline-block;
     font-size: 16px;
@@ -88,12 +88,13 @@
     letter-spacing: 0.02em;
     text-align: center;
     padding-top: 15px;
-    border-bottom: 1px solid $light-color-primary;
+    color: $dark-color-primary;
+    border-bottom: 1px solid $dark-color-primary;
 
     &:hover {
       text-decoration: none;
-      color: $light-color-primary;
-      border-bottom: 0;
+      color: $dark-color-primary;
+      border-bottom: 1px solid transparent;
     }
   }
 
@@ -147,23 +148,31 @@
     }
   }
 
-  &.dark {
-
+  &.white {
     .TextLinkBtn__info,
     .TextLinkBtn__title {
-      color: $dark-color-primary;
+
+      @include breakpoint-md {
+        color: $light-color-primary;
+      }
     }
     
     .TextLinkBtn__subtitle {
-      color: $dark-color-third;
+      @include breakpoint-md {
+        color: $light-color-primary;
+      }
     }
 
     .TextLinkBtn__link {
-      color: $dark-color-primary;
-      border-bottom: 1px solid $dark-color-primary;
+      @include breakpoint-md {
+        color: $light-color-primary;
+        border-bottom: 1px solid $light-color-primary;
+      }
 
       &:hover {
-        color: $dark-color-primary;
+        @include breakpoint-md {
+          color: $light-color-primary;
+        }
       }
     }
   }

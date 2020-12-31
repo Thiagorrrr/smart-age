@@ -3,7 +3,7 @@ const DataPrivacy = {
         classNames: "Shipping container"
     },
     TextLinkBtn1: {
-        classNames: "dark textLeft",
+        classNames: "textLeft",
         title: "Privacy Policy",
         paragraph: [
             {
@@ -110,7 +110,7 @@ const DataPrivacy = {
         ],
     },
     TextLinkBtn2: {
-        classNames: "dark textLeft top",
+        classNames: "textLeft top",
         title: "Returns & Exhanges",
         paragraph: [
             {
@@ -170,7 +170,7 @@ const DataPrivacy = {
         ],
     },
     TextLinkBtn3: {
-        classNames: "dark textLeft top",
+        classNames: "textLeft top",
         title: "Shipping Policy",
         paragraph: [
             {

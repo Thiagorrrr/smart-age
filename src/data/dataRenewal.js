@@ -22,7 +22,7 @@ import Renewal from "../imgs/renewal/Renewal.jpg"
 
 const dataRenewal = {
     hero: {
-        classNames: "dark offset-lg-7 col-lg-5",
+        classNames: "offset-lg-7 col-lg-5",
         title: "Renewal",
         subtitle: "Our remount collection is inspired by the momentous occasion of renewing your vows and celebrating the beauty of your marriage. Reflected in your continuous and evolving love for one another.",
         alt: "ring and jewelry",
@@ -78,7 +78,7 @@ const dataRenewal = {
         },
     ],
     TextLinkBtn: {
-        classNames: "dark  top container",
+        classNames: "top container",
         title: 'Best Sellers',
         subtitle: 'Our most unique and sought after Renewal engagement rings.'
     }, 
@@ -155,7 +155,7 @@ const dataRenewal = {
         target: "__blank"
     },
     hero2: {
-        classNames: "dark offset-lg-7 col-lg-5",
+        classNames: "offset-lg-7 col-lg-5",
         title: "NOVA ™",
         subtitle: "Gabriel has decided to rethink the entire ring, either by remounting the original stone, or using a new one, in a silhouette so unexpected and exciting like our knockout NOVA ™  setting, that turns the ring into a vibrant symbol of this fresh chapter you have chosen for the rest of your lives together.",
         alt: "nova",
@@ -168,7 +168,7 @@ const dataRenewal = {
         img: secret,
         alt: "image secret",
         TextLinkBtn1: {
-            classNames: "dark col-lg-6",
+            classNames: "col-lg-6",
             title: "The Secret of Love",
             subtitle: "Hold a secret of your own. Find your perfect engagement ring with a secret to unveil.",
             linkNamebtn: "View All Collections",
@@ -180,7 +180,7 @@ const dataRenewal = {
         img: crafted,
         alt: "image Diamonds Bands",
         TextLinkBtn1: {
-            classNames: "dark col-lg-6",
+            classNames: "col-lg-6",
             title: "Hand Crafted with Love",
             subtitle: "A Lifteime of service and passion",
             linkNamebtn: "Learn More",

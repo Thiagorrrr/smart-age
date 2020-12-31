@@ -13,7 +13,7 @@ import Diamonds from "../imgs/amavida/diamond-band.jpg"
 
 const DataAmavida = {
     hero: {
-        classNames: "dark offset-lg-7 col-lg-5",
+        classNames: "offset-lg-7 col-lg-5",
         title: "Amavida",
         subtitle: "As regal as it is intricate, the elegant shank of this ring is stunningly surrounded by a gallery of diamonds forming a setting that recalls the unforgettable climax of a coronation, when a woman becomes a queen.",
         alt: "woman with jewelry",
@@ -92,7 +92,7 @@ const DataAmavida = {
         img: WhyShop,
         alt: "image Why shop",
         TextLinkBtn1: {
-            classNames: "dark col-lg-6",
+            classNames: "col-lg-6",
             title: "Why shop Gabriel?",
             subtitle: "Did you know that all Gabriel & Co. products are hand crafted by our artisans with utmost care in the highest quality?",
             linkNamebtn: "Learn More",
@@ -104,7 +104,7 @@ const DataAmavida = {
         img: Diamonds,
         alt: "image Diamonds Bands",
         TextLinkBtn1: {
-            classNames: "dark col-lg-6",
+            classNames: "col-lg-6",
             title: "Diamonds Bands",
             subtitle: "An array of settings that go beyond singular beauty, possessing stunning and unexpected flourishes of romantic artistry",
             linkNamebtn: "Discover",
