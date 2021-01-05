@@ -25,7 +25,6 @@ function component() {
     let src = document.getElementsByTagName('img');
     let source = document.getElementsByTagName('source');
 
-    console.log( src, "1");
     let format = (data, type) => {
 
         for (let index = 0; index < data.length; index++) {
@@ -34,8 +33,6 @@ function component() {
             }else {
                 data[index].srcset  = "<?php echo $block->getViewFileUrl( images" + data[index].srcset  + " '); ?>"
             }
-
-            console.log( data[index], "nomes");
         }
     }
 
