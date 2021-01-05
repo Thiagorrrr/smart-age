@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change img to php</title>
+</head>
+
+<body>
+
+    <style>
+        main.change__container {
+            max-width: 1366px;
+            margin: 60px auto;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .change__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        fieldset {
+            border: 0;
+            width: 50%;
+        }
+
+        textarea {
+            width: 80%;
+            padding: 25px;
+            height: 80vh;
+        }
+
+        legend {
+            text-align: center;
+            padding-bottom: 5px;
+            font-size: 16px;
+            font-family: system-ui;
+        }
+
+        legend.change__legend-img {
+            color: red;
+        }
+
+        legend.change__legend-php {
+            color: green;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: system-ui;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: blueviolet;
+        }
+
+        div#description2 body {
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            z-index: -1;
+            height: 0;
+            overflow: hidden;
+        }
+    </style>
+
+    <main class="change__container">
+        <h1> Change tag img to php </h1>
+        <div class="change__wrapper">
+            <fieldset>
+                <legend class="change__legend-img"> Drop here your html with tag img </legend>
+                <form id="htmlForm">
+                    <textarea id="description1" onkeypress="getHtml()" name="comment" form="htmlForm">
+                    </textarea>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend class="change__legend-php">your html with tag img php </legend>
+                <form id="htmlFormated">
+                    <textarea id="description3" name="comment" form="htmlFormated">
+
+
+                    </textarea>
+                </form>
+                <div id='description2'>
+
+                </div>
+
+            </fieldset>
+        </div>
+    </main>
+
+    <script async src="./script.js"> </script>
+
+</body>
+
+</html>
