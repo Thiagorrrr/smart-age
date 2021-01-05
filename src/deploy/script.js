@@ -18,19 +18,24 @@ function getHtml() {
         htmlFinal.value = htmlNew.innerHTML;
         count++;
     }
+
 }
 
 function component() {
     let src = document.getElementsByTagName('img');
     let source = document.getElementsByTagName('source');
+
+    console.log( src, "1");
     let format = (data, type) => {
 
         for (let index = 0; index < data.length; index++) {
             if (type === 'img') {
-                data[index].src  = "<?php echo $block->getViewFileUrl( images" + data[index].src  + " '); ?>"
+                data[index].src  = "<?php echo $block->getViewFileUrl( images" + data[index].attributes['src'].value  + " '); ?>"
             }else {
                 data[index].srcset  = "<?php echo $block->getViewFileUrl( images" + data[index].srcset  + " '); ?>"
             }
+
+            console.log( data[index], "nomes");
         }
     }
 
