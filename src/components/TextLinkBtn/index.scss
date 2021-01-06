@@ -12,7 +12,7 @@
   }
 
   &.extraTop {
-    @include breakpoint-md { 
+    @include breakpoint-md {
       margin-top: 80px;
     }
   }
@@ -40,10 +40,21 @@
     }
   }
 
+  &__slug,
   &__info,
   &__subtitle,
   &__title {
     color: $dark-color-primary;
+  }
+
+  &__slug {
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
   }
 
   &__title {
@@ -78,7 +89,7 @@
     text-align: center;
   }
 
-  &__link { 
+  &__link {
     font-family: Nunito;
     display: inline-block;
     font-size: 16px;
@@ -149,6 +160,8 @@
   }
 
   &.white {
+
+    .TextLinkBtn__slug,
     .TextLinkBtn__info,
     .TextLinkBtn__title {
 
@@ -156,7 +169,7 @@
         color: $light-color-primary;
       }
     }
-    
+
     .TextLinkBtn__subtitle {
       @include breakpoint-md {
         color: $light-color-primary;

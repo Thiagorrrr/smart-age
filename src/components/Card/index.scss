@@ -6,6 +6,7 @@
         width: 25%;
     }
 
+    &.items4,
     &.items3 {
         width: 100%;
         padding-bottom: 40px;
@@ -14,6 +15,12 @@
             width: 30%;
             padding-bottom: 0;
         }   
+    }
+
+    &.items4 {
+        @include breakpoint-md {
+            width: 25%;
+        }  
     }
 
     &__link {

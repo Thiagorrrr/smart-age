@@ -15,6 +15,7 @@ const Hero = props => (
     }
     <div className="hero__container-text container ">
       <TextLinkBtn
+        slug={props.slug}
         classNames={props.classNames}
         title={props.title}
         subtitle={props.subtitle}
@@ -31,6 +32,7 @@ Hero.propTypes = {
   imgTablet: PropTypes.string,
   imgDesk: PropTypes.string,
   alt: PropTypes.string,
+  slug: PropTypes.string,
   subtitle: PropTypes.string,
   title: PropTypes.string,
   link: PropTypes.string,

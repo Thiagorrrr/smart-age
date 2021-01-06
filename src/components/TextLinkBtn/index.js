@@ -4,6 +4,10 @@ import BtnSee from '../BtnSee/index'
 
 const TextLinkBtn = props => (
     <div className={`TextLinkBtn ${props.classNames ? props.classNames : ''} `}>
+        {
+            props.slug && 
+            <span className="TextLinkBtn__slug">{props.slug}</span> 
+        }
         {props.title &&
             <h2 className="TextLinkBtn__title">{props.title}</h2>
         }
@@ -47,6 +51,7 @@ const TextLinkBtn = props => (
 )
 
 TextLinkBtn.propTypes = {
+    slug: PropTypes.string,
     title: PropTypes.string,
     text: PropTypes.string,
     link: PropTypes.string,
