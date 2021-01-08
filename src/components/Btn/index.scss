@@ -1,0 +1,24 @@
+.btnForm {
+    &__link {
+        display: block;
+        border: 0;
+        background-color: $dark-color-third;
+        font-family: Nunito;
+        font-style: normal;
+        height: 50px;
+        padding: 8px 50px;
+        font-weight: 600;
+        border-radius: 4px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        font-size: 16px;
+        color: $light-color-primary;
+        text-transform: capitalize;
+
+        @include breakpoint-lg { 
+            margin-top: 40px;
+            width: 288px;
+        }
+    }
+}

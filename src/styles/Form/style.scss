@@ -1,0 +1,19 @@
+// template form warranty
+
+.warranty {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint-lg {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &--right,
+    &--left {
+        
+        @include breakpoint-lg {
+            width: 45%;
+        }
+    }
+}
