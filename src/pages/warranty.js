@@ -11,6 +11,7 @@ import "../styles/Base/index.scss"
 const WarrantyPage = () => (
     <main>
         <TitleMark
+            classNames={DataWarranty.titleMark.classNames}
             title={DataWarranty.titleMark.title}
         />
 
@@ -34,7 +35,7 @@ const WarrantyPage = () => (
 
             </div>
 
-            <div className ="warranty--right">
+            <div className="warranty--right">
 
                 <ListInput
                     classNames={DataWarranty.listInput4.classNames}

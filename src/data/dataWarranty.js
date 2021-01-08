@@ -1,5 +1,6 @@
 const DataWarranty = {
     titleMark: {
+        classNames: "bottom",
         title: 'Product Registration / Warranty Registration'
     },
     listInput: {
