@@ -5,6 +5,26 @@
         }
     }
 
+    &.topLine {
+        margin-top: 40px;
+
+        .list__container {
+            border-top: 1px solid #D1D1D1;
+        }
+
+        @include breakpoint-md {
+            margin-top: 80px;
+        }
+    }
+
+    &.mobileHidden {
+        display: none;
+
+        @include breakpoint-xs {
+            display: block;
+        }
+    }
+
     &__container {
         display: flex;
         flex-wrap: wrap;

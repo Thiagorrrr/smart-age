@@ -11,6 +11,7 @@ const List = props => (
                     return (
                         <Card
                             key={index}
+                            index={index}
                             classNames={items.classNames}
                             img={items.img}
                             alt={items.alt}
@@ -19,6 +20,9 @@ const List = props => (
                             sku={items.sku}
                             price={items.price}
                             link={items.link}
+                            videoImg={items.videoImg}
+                            videoTitle={items.videoTitle}
+                            videoSrc={items.videoSrc}
                         />
                     )
                 })

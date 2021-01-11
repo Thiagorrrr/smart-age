@@ -1,0 +1,21 @@
+.strong__container {
+    @include breakpoint-md {
+        margin-top: 40px;
+    }
+    @include breakpoint-xs {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.video__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @include breakpoint-xs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}

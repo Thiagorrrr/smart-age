@@ -23,6 +23,16 @@
         }  
     }
 
+    &.items5 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        @include breakpoint-md {
+            width: 20%;
+        }  
+    }
+
     &__link {
         display: flex;
         flex-direction: column;
@@ -92,6 +102,21 @@
         letter-spacing: 0.04em;
         text-align: center;
         color: $dark-color-primary;
+    }
+
+    &__modal {
+        width: 100%;
+        top: 100px;
+
+        @include breakpoint-lg {       
+            top: 0;
+        }
+    }
+
+    &__modal-dialog {
+        max-width: none;
+        margin: 0 auto;
+        width: 90%;
     }
 
 }

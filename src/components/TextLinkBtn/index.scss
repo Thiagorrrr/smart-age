@@ -55,6 +55,7 @@
     line-height: 26px;
     letter-spacing: 0.1em;
     text-align: center;
+    display: block;
   }
 
   &__title {
@@ -156,6 +157,10 @@
 
     &.noSpace {
       padding-bottom: 0;
+    }
+    
+    &.center {
+      text-align: center;
     }
   }
 

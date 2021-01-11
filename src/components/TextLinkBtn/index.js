@@ -9,7 +9,7 @@ const TextLinkBtn = props => (
             <span className="TextLinkBtn__slug">{props.slug}</span> 
         }
         {props.title &&
-            <h2 className="TextLinkBtn__title">{props.title}</h2>
+            <h2 className="TextLinkBtn__title" dangerouslySetInnerHTML={{ __html: props.title }}></h2>
         }
         {props.info &&
             <h3 className="TextLinkBtn__info">{props.info}</h3>

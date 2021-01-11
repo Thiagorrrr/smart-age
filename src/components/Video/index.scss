@@ -1,0 +1,21 @@
+.video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    iframe {
+        width: 290px;
+        height: auto;
+
+        @include breakpoint-md {
+            width: 700px;
+            height: 400px;
+        }
+
+        @include breakpoint-xs {
+            width: 1109px;
+            height: 580px;
+        }
+    }
+}
